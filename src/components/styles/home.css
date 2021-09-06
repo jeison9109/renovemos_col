@@ -1,0 +1,228 @@
+/*.fond-ini img {
+  height: auto;
+  width: 100%;
+}*/
+.logo {
+  width: 100%;
+  height: auto;
+  padding: 5px 5px 5px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 112px 0px;
+
+  position: absolute;
+  width: 1050px;
+  height: 566px;
+  left: calc(50% - 1050px / 2);
+  top: 34px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 599px;
+  height: 342px;
+
+  /*left: calc(50% - 599px / 2 - 222.5px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+h1 {
+  position: absolute;
+  width: 599px;
+  height: 160px;
+  left: 0px;
+  top: 50px;
+
+  /* h1 */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  /* or 138% */
+
+  letter-spacing: 0.2px;
+
+  /* light-text-color */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+
+h4 {
+  position: absolute;
+  width: 376px;
+  height: 60px;
+  left: 0px;
+  top: 185px;
+
+  /* h4 */
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* light-text-color */
+
+  color: #000000;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 35px 0px;
+}
+
+.rayas {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  left: 530px;
+  top: 300px;
+}
+
+@media (max-width: 991px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 80px 0px;
+
+    position: absolute;
+    width: 414px;
+    height: 940px;
+    left: calc(50% - 414px / 2);
+    top: 116px;
+  }
+  .logo {
+    opacity: 0.6;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 414px;
+    height: 825px;
+    left: calc(50% - 414px / 2);
+    top: 80px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 414px;
+    height: 480px;
+    left: calc(50% - 414px / 2);
+    top: 0px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  h1 {
+    position: static;
+    width: 314px;
+    height: 121px;
+    left: 52px;
+    top: 0px;
+
+    /* h2 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    /* or 142% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #000000;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+  h4 {
+    position: static;
+    width: 279px;
+    height: 120px;
+    left: 69.5px;
+    top: 180px;
+
+    /* h4 */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    /* light-text-color */
+
+    color: #000000;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 10px 0px;
+  }
+}
