@@ -1,0 +1,21 @@
+.his {
+  height: auto;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 20px;
+}
+
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px;
+  border-right: 0.2px solid gray;
+}
+
+.text-p {
+  text-align: justify;
+  margin-top: 20px;
+}

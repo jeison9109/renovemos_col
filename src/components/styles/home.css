@@ -118,6 +118,7 @@ h4 {
     position: absolute;
     width: 414px;
     height: 940px;
+
     left: calc(50% - 414px / 2);
     top: 116px;
   }
@@ -131,7 +132,7 @@ h4 {
     align-items: center;
     padding: 0px;
 
-    position: static;
+    position: absolute;
     width: 414px;
     height: 825px;
     left: calc(50% - 414px / 2);
