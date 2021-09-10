@@ -19,6 +19,7 @@
   left: calc(50% - 1050px / 2);
   top: 34px;
 }
+/*
 .row {
   display: flex;
   flex-direction: column;
@@ -33,12 +34,12 @@
   top: 0px;
 
   /* Inside Auto Layout */
-
+/*
   flex: none;
   order: 0;
   flex-grow: 0;
   margin: 0px 0px;
-}
+}*/
 
 h1 {
   position: absolute;
@@ -126,7 +127,7 @@ h4 {
     opacity: 0.6;
   }
 
-  .row {
+  /*.row {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,13 +140,14 @@ h4 {
     top: 80px;
 
     /* Inside Auto Layout */
-
+  /*
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
-  }
+  }*/
+
   .main-content {
     display: flex;
     flex-direction: column;

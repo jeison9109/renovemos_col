@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/historia.css";
+import { Footer } from "../screens/Footer";
 
 export const Historia = () => {
   return (
@@ -11,7 +12,7 @@ export const Historia = () => {
       </div>
       <div className="his">
         <div className="column">
-          <h5>Vision</h5>
+          <h3>Vision</h3>
           <p className="text-p">
             En el 2024, Renovemos Colombia tendrá un posicionamiento como
             alternativa de poder, con representación a nivel municipal,
@@ -22,7 +23,7 @@ export const Historia = () => {
           </p>
         </div>
         <div className="column">
-          <h5>Mision</h5>
+          <h3>Mision</h3>
           <p className="text-p">
             Renovemos Colombia busca a través del ejercicio democrático, en
             desarrollo del derecho a la participación política, el derecho al
@@ -36,6 +37,7 @@ export const Historia = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

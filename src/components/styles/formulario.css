@@ -4,6 +4,12 @@
   padding-bottom: 10px;
 }
 
+.container-contact {
+  display: flex;
+  width: 100%;
+  height: 705px;
+}
+
 /*************header*******/
 
 .main-header {
@@ -33,7 +39,7 @@
 .card {
   border: none;
   border-radius: 20px;
-  background-color: rgba(73, 112, 162);
+  /*background-color: rgba(73, 112, 162);*/
 }
 
 .wow-bg {
@@ -314,4 +320,12 @@
 
 .colorboard {
   color: rgb(237, 50, 55);
+}
+
+@media (max-width: 991px) {
+  .container-contact {
+    display: flex;
+    width: 100%;
+    height: 125px;
+  }
 }

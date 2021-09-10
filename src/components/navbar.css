@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 .main-nav {
-  height: 100px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   position: sticky;
-  margin-top: 60px;
+  margin-top: 0px;
   z-index: 20;
+  /* background-color: rgb(215, 216, 217);
+  opacity: 0.8;*/
 }
-
-.container {
+.logo1 {
+  float: left;
+  margin-left: 75px;
+  /*display: flex;*/
+  width: 120px;
+  height: auto;
+}
+.container-navbar {
   width: 100%;
   height: 150px;
   padding-right: 15px;
@@ -32,9 +40,10 @@
 ul.main-menu {
   display: inline-flex;
   list-style: none;
-  margin: 0px auto 0;
+
+  margin: 25px 75px;
   padding: 0;
-  float: right;
+  /*float: right;*/
   z-index: 7;
 }
 ul.main-menu > li.menu-item:first-child {
@@ -48,7 +57,7 @@ li {
   list-style-type: none;
 }
 .menu-item a {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 40px;
   position: relative;
@@ -141,6 +150,15 @@ li {
 }*/
 
 @media (max-width: 991px) {
+  ul.main-menu {
+    display: inline-flex;
+    list-style: none;
+    margin: 2px auto 0px;
+    /* margin: 8px 105px;*/
+    padding: 0;
+    /*float: right;*/
+    z-index: 7;
+  }
   .header__middle__logo {
     width: 77%;
   }
