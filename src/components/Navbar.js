@@ -166,7 +166,7 @@ export const Navbar = () => {
             <NavLink
               onClick={toggleClass}
               activeClassName="is-active"
-              to={`/Contactenos`}
+              to={`/Contacts`}
             >
               {" "}
               Contactenos{" "}

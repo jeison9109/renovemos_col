@@ -6,6 +6,7 @@
   color: #737373;
   margin-top: 15px;
 }
+
 .site-footer hr {
   border-top-color: #bbb;
   opacity: 0.5;
@@ -67,7 +68,7 @@
     display: flex;
     background-color: rgb(215, 216, 217);
     margin-top: 600px;
-    height: 700px;
+    height: 800px;
   }
 }
 @media (max-width: 767px) {

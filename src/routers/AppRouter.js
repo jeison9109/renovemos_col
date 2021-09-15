@@ -8,7 +8,7 @@ import { ValoresyPrincipios } from "../components/screens/ValoresyPrincipios";
 import { Candidatos } from "../components/screens/Candidatos";
 import { Propuestas } from "../components/screens/Propuestas";
 import { Navbar } from "../components/Navbar";
-import { Contactenos } from "../components/screens/Contactenos";
+import { Contacts } from "../components/screens/Contacts";
 import { Organigrama } from "../components/screens/Organigrama";
 
 export const AppRouter = () => {
@@ -32,7 +32,7 @@ export const AppRouter = () => {
           />
           <Route exact path="/candidatos" component={Candidatos} />
           <Route exact path="/propuestas" component={Propuestas} />
-          <Route exact path="/contactenos" component={Contactenos} />
+          <Route exact path="/contacts" component={Contacts} />
           <Route exact path="/organigrama" component={Organigrama} />
         </Switch>
       </Router>

@@ -7,7 +7,7 @@ export const Footer = () => {
       <footer className="site-footer">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 col-md-6">
+            <div className="col-md-8">
               <h6>Nosotros</h6>
               <p className="text-justify">
                 Renovemos Colombia <i>SOMOS UN MOVIMIENTO POLITICO</i>{" "}
@@ -16,7 +16,7 @@ export const Footer = () => {
               </p>
             </div>
 
-            <div className="col-xs-6 col-md-3">
+            <div className="col-md-1">
               <h6>Categories</h6>
               <ul className="footer-links">
                 <li>
@@ -34,7 +34,7 @@ export const Footer = () => {
               </ul>
             </div>
 
-            <div className="col-xs-6 col-md-3">
+            <div className="col-md-5">
               <h6>Conocenos</h6>
               <ul className="footer-links">
                 <li>
